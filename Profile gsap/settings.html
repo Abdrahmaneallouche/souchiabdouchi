@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings </title>
+  
+  <link rel="icon"href='./IMG/dashboard.png'>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="sideBar">
+      <div class="title">
+        <h3 id="logo">Elzero</h3>
+      </div>
+      <ul class="menu">
+        <li ><a href="index.html" class=""><i class="fa-solid fa-chart-bar"></i><span>DashBoard</span> </a></li>
+        <li><a href="#" class="active"><i class="fa-solid fa-gear fa-fw"></i><span>Settings</span> </a></li>
+        <li><a href="profile.html" class=""><i class="fa-solid fa-user fa-fw"></i> <span>Profile</span></a></li>
+        <li><a href="projects.html" class=""><i class="fa-solid fa-diagram-project fa-fw"></i> <span>Projects</span></a></li>
+        <li><a href="courses.html" class=""><i class="fa-solid fa-graduation-cap fa-fw"></i> <span>Courses</span></a></li>
+        <li><a href="friends.html" class=""><i class="fa-solid fa-circle-user fa-fw"></i> <span>Friends</span></a></li>
+        <li><a href="file.html" class=""><i class="fa-solid fa-file fa-fw"></i> <span>Files</span> </a></li>
+        <li><a href="plans.html" class=""><i class="fa-solid fa-credit-card fa-fw"></i> <span>Plans</span> </a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <header id="header">
+        <div class="search" id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Type A keyWord">
+        </div>
+        <div class="icons" id="icons">
+          <div class="icon">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </div>
+          <div class="profile">
+            <img src="./IMG/avatar.png" alt="">
+          </div>
+        </div>
+      </header>
+      <h1 id="DashboardTitle">Settings</h1>
+      <section class="Profile "  id="main">
+        <div class="userControl" id="welcome">
+         <div class="user">
+           <div class="info">
+            <h2>Site Control</h2>
+            <p class="m-5-0">Control The Website If There Is Maintenance</p>
+           </div>
+          
+           </div>
+           <div class="control">
+            <div>
+              <span class="d-block webControl">Website Control</span>
+              <span class="openClose">Open/Close Website And Type The Reason</span>
+            </div>
+            <label >
+              <input type="checkbox" class="toggle-checkbox" checked>
+              <div class="toggle-switch"></div>
+            </label>
+         </div>
+         <div class="site-control">
+       <textarea class="" placeholder="Close Message Content"></textarea>
+         </div>
+         
+      
+        
+         
+        </div>
+
+        
+      </section>
+      <section class="Profile General"  id="Settingone">
+        <div class="userControl" id="welcome">
+         <div class="user">
+           <div class="info">
+            <h2>General Info</h2>
+            <p class="mb-20">General Information About Your Account</p>
+           </div>
+          
+           </div>
+           <form action="">
+            <div class="inputs">
+              <label for="firstName">firstName</label>
+              <input type="text" name="firstName" placeholder="firstName">
+            </div>
+
+            <div class="inputs">
+              <label for="LastName">LastName</label>
+              <input type="text" name="LastName" placeholder="LastName">
+            </div>
+            <div class="inputs">
+              <label class="d-block" for="Email">Email</label>
+              <input type="email" class="email" name="Email" disabled placeholder="o@nn.sa">
+              <a href="" class="c-sixth">Change</a>
+            </div>
+
+           </form>
+  
+        </div>
+
+        
+      </section>
+      <section class="Profile security "  id="Settingtwo">
+        <div class="userControl" id="welcome">
+         <div class="user">
+           <div class="info">
+            <h2>Security Info</h2>
+            <p class="mb-20">Security Information About Your Account</p>
+           </div>        
+           </div>
+          <ul class="latest">
+            <li>
+              <div class="latest-info">
+                <p>Password</p>
+                <span>Last Change On 25/10/2021</span>
+              </div>
+              <div class="latest-links">
+                <a href="">Change</a>
+              </div>
+            </li>
+            <li>
+              <div class="latest-info">
+                <p>Two-Factor Authentication</p>
+                <span>Enable/Disable The Feature</span>
+              </div>
+              <div class="latest-links">
+                <label >
+                  <input type="checkbox" class="toggle-checkbox" checked>
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="latest-info">
+                <p>Devices</p>
+                <span>Check The Login Devices List</span>
+              </div>
+              <div class="latest-links">
+                <a class="device" href="">Device</a>
+              </div>
+            </li>
+          </ul>
+  
+        </div>
+
+        
+      </section>
+      <section class="Profile  socialInfo"  id="Settingthree">
+        <div class="userControl" id="welcome">
+         <div class="user">
+           <div class="info">
+            <h2>Social Info</h2>
+            <p class="mb-20">Social Media Information</p>
+           </div>        
+           </div>
+          <ul class="">
+          <li class="">
+            <div class="socialMedias">
+              <i class="fa-brands fa-twitter twitter"></i>
+              <input type="text" placeholder="User Name">
+            </div>
+          </li>
+          <li class="">
+            <div class="socialMedias">
+              <i class="fa-brands fa-facebook-f facebook"></i>
+              <input type="text" placeholder="User Name">
+            </div>
+          </li>
+          <li class="">
+            <div class="socialMedias">
+              <i class="fa-brands fa-linkedin linkedin"></i>
+              <input type="text" placeholder="User Name">
+            </div>
+          </li>
+          <li class="">
+            <div class="socialMedias">
+              <i class="fa-brands fa-youtube youtube"></i>
+              <input type="text" placeholder="User Name">
+            </div>
+          </li>
+          </ul>
+  
+        </div>
+
+        
+      </section>
+      <section class="Profile Widget"  id="Settingfour">
+        <div class="userControl" id="welcome">
+         <div class="user">
+           <div class="info">
+            <h2>Widgets Control</h2>
+            <p class="mb-20">Show/Hide Widgets</p>
+           </div>        
+           </div>
+          <ul class="">
+          <li class="controling">
+            <div class="checkBoxes">
+              <input checked id="one" type="checkbox" >
+              <label for="one">Quick Draft</label>
+            </div>
+          </li>
+          <li class="controling">
+            <div class="checkBoxes">
+              <input checked id="two" type="checkbox" >
+              <label for="two">Yearly Targets</label>
+            </div>
+          </li>
+          <li class="controling">
+            <div class="checkBoxes">
+              <input checked id="three" type="checkbox" >
+              <label for="three">Tickets Statistics</label>
+            </div>
+          </li>
+          <li class="controling">
+            <div class="checkBoxes">
+              <input checked id="four" type="checkbox" >
+              <label for="four">Latest News</label>
+            </div>
+          </li>
+          <li class="controling">
+            <div class="checkBoxes">
+              <input  id="five" type="checkbox" >
+              <label for="five">Latest Tasks</label>
+            </div>
+          </li>
+          <li class="">
+            <div class="checkBoxes">
+              <input checked id="six" type="checkbox" >
+              <label for="six">Top Search Items</label>
+            </div>
+          </li>
+          </ul>
+  
+        </div>
+
+        
+      </section>
+      <section class="Profile manager"  id="Settingfive">
+        <div class="userControl" id="welcome">
+         <div class="user">
+           <div class="info">
+            <h2>Backup Manager</h2>
+            <p class="mb-20">Control Backup Time And Location</p>
+           </div>        
+           </div>
+          <ul class="">
+          <li class="">
+            <div class="Radios">
+              <input checked  id="Daily" type="radio"  name="time">
+              <label for="Daily">Daily</label>
+            </div>
+          </li>
+          <li class="">
+            <div class="Radios">
+              <input   id="Weekly" type="radio"  name="time">
+              <label for="Weekly">Weekly</label>
+            </div>
+          </li>
+          <li class="">
+            <div class="Radios">
+              <input   id="Yearly" type="radio" name="time" >
+              <label for="Yearly">Yearly</label>
+            </div>
+          </li>
+          
+          </ul>
+
+          <div class="servers">
+            <input type="radio" name="servers" id="server-one">
+            <div class="server mb-15 rad-10 w-full">
+              <label for="server-one" class="d-block m-15" >
+                <i class="fa-solid fa-server d-block mb-10"></i>
+                Megamen
+              </label>
+            </div>
+            <input type="radio" name="servers" id="server-two" checked>
+            <div class="server mb-15 rad-10 w-full">
+              <label for="server-two" class="d-block m-15"  >
+                <i class="fa-solid fa-server d-block mb-10"></i>
+                Zero
+              </label>
+            </div>
+            <input type="radio" name="servers" id="server-three">
+            <div class="server mb-15 rad-10 w-full">
+              <label for="server-three" class="d-block m-15">
+                <i class="fa-solid fa-server d-block mb-10"></i>
+                Sigma
+              </label>
+            </div>
+
+          </div>
+  
+        </div>
+
+        
+      </section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+<script src="gsap.min.js"></script>
+<script src="gsap.js"></script>
+</body>
+</html>
